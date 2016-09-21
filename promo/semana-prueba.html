@@ -1,0 +1,237 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Vení a conocer Crossfit Tropa y unite a la manada! Tenés una semana de prueba gratis para vos." />
+    <title>Crossfit Tropa :: Promo Semana se prueba</title>
+    <link rel="stylesheet" type="text/css" href="../style/style.css" />
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <style type="text/css">
+    html {
+        background: url('../images/landing-clase-de-prueba.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    body {
+        background: transparent;
+        overflow: auto;
+    }
+    
+    @font-face {
+        font-family: 'museo300';
+        src: url('../font/museo300-regular-webfont.eot');
+        src: url('../font/museo300-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../font/museo300-regular-webfont.woff2') format('woff2'), url('../font/museo300-regular-webfont.woff') format('woff'), url('../font/museo300-regular-webfont.ttf') format('truetype'), url('../font/museo300-regular-webfont.svg#museo300') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'museo700';
+        src: url('../font/museo700-regular-webfont.eot');
+        src: url('../font/museo700-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../font/museo700-regular-webfont.woff2') format('woff2'), url('../font/museo700-regular-webfont.woff') format('woff'), url('../font/museo700-regular-webfont.ttf') format('truetype'), url('../font/museo700-regular-webfont.svg#museo700') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    .logo-landing {
+        text-align: center;
+        width: 26%;
+        text-align: center;
+        margin: 2% auto;
+    }
+    
+    .logo-landing img {
+        width: 100%;
+    }
+    
+    h1 {
+        color: #fff02a;
+        font-family: 'museo700', Helvetica, Arial;
+        text-transform: uppercase;
+        font-size: 40px;
+        text-align: center;
+        width: 40%;
+        margin: 0 auto;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    
+    p {
+        color: #ffffff;
+        font-family: 'museo300', Helvetica, Arial;
+        font-size: 18px;
+        width: 40%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    table tr td p {
+        margin: 10px 0 0 0;
+        text-align: left;
+        font-style: normal;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    
+    input,
+    select {
+        background: #2d3135;
+        border: 1px solid #2a2929;
+        border-radius: 8px;
+        color: #ffffff;
+    }
+    
+    button {
+        cursor: pointer;
+        margin-bottom: 10%;
+    }
+    
+    .input.half {
+        width: 90%;
+    }
+    
+    select.input {
+        width: 100%;
+        height: 28px;
+    }
+    
+    .enviar {
+        background: #ffeb00;
+        color: #2d3135;
+        font-size: 16px;
+        text-align: center;
+        width: 100%;
+        font-family: 'museo700';
+        border: 0;
+        margin-top: 10px;
+        height: 40px;
+        border-radius: 8px;
+    }
+    form {width: 40%;}
+    table {width: 100%;}
+    @media screen and (max-width: 1100px) {
+        h1 {
+            width: 80%;
+        }
+        p {
+            width: 80%;
+        }
+        form {width: 60%;}
+    }
+    
+    @media screen and (max-width: 900px) {
+        .logo-landing {
+            width: 40%;
+        }
+        h1 {font-size: 26px;}
+        p {font-size: 16px;}
+    }
+    @media screen and (max-width: 540px) {
+       form {width: 90%;}
+    }
+
+
+    </style>
+    <script src="jquery-1.6.2.min.js"></script>
+    <script src="jquery-ui-1.8.15.custom.min.js"></script>
+    <link rel="stylesheet" href="jqueryCalendar.css">
+    <script>
+    jQuery(function() {
+        jQuery("#date").datepicker();
+    });
+    </script>
+</head>
+
+<body>
+    <div class="clase-prueba">
+        <div class="logo-landing">
+            <img src="../images/tropa.png" alt="crossfit tropa" />
+        </div>
+        <h1>Proba Crossfit una semana gratis!</h1>
+        <p>Completá tus datos y viví la experiencia Tropa. #JoinTheWolfPack
+        </p>
+        <form name="htmlform" method="post" action="html_form_send.php">
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <p>Tu nombre</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input class="input" type="text" name="first_name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p>Tu email</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input class="input" type="text" name="email" />
+                    </td>
+                </tr>
+                <!-- <tr>
+                    <td colspan="2">
+                        <p>Elegí el box</p>
+                    </td>
+                </tr> -->
+                <!-- <tr>
+                    <td colspan="2">
+                        <select class="input" name="last_name">
+                            <option>Florida - Maipu 1154 (Vicente Lopez)</option>
+                            <option>Colegiales - 14 de julio 1325 (Esq. Alvarez Thomas)</option>
+                            <option>Palermo - Av. Libertador 3883 (Paseo de la Infanta)</option>
+                        </select>
+                    </td>
+                </tr> -->
+                <tr>
+                    <td>
+                        <p>Día</p>
+                    </td>
+                    <td>
+                        <p>Hora</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="date" class="input half" name="telephone" value="">
+                    </td>
+                    <td width="183">
+                        <select name="comments" class="input">
+                            <option>7hs a 8hs</option>
+                            <option>8hs a 9hs</option>
+                            <option>9hs a 10hs</option>
+                            <option>10hs a 11hs</option>
+                            <option>12hs a 13hs</option>
+                            <option>13hs a 14hs</option>
+                            <option>17hs a 18hs</option>
+                            <option>18hs a 19hs</option>
+                            <option>19hs a 20hs</option>
+                            <option>20hs a 21hs</option>
+                            <option>21hs a 22hs</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p style="width:100%; text-transform: none; color: #ffeb00">Las clases de prueba son de Lunes a Viernes.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="enviarbtn">
+                        <button class="enviar" type='submit' name='Submit'>RESERVAR CLASE</button>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

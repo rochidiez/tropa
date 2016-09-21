@@ -1,0 +1,100 @@
+@import url('reset.css');
+
+body{
+	background:#000;
+	color:#fff;
+}
+a{
+	color:#fff;
+	text-decoration:none;
+}
+img.ac_bgimage{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	opacity:0.8;
+	display:none;
+}
+.ac_overlay{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	//background:transparent url(../images/pattern.png) repeat top left;
+}
+.ac_loading{
+	position:fixed;
+	top:10px;
+	right:10px;
+	background:#000 url(../images/loader.gif) no-repeat center center;
+	width:50px;
+	height:50px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px 10px 10px 10px;
+	z-index:999;
+	opacity:0.7;
+	display:none;
+}
+
+.ac_content{
+	position:fixed;
+	width:100%;
+	left:0px;
+	margin:0 auto;
+}
+/*.ac_content h1{
+	background:transparent url(../images/bg_menu.png) repeat top left;
+	display:block;
+	float:left;
+	width:90px;
+	height:50px;
+	padding:20px;
+	font-size:36px;
+	font-weight:bold;
+	line-height:20px;
+	margin-right:1px;
+}*/
+
+.logo {margin: 5% auto 0 auto;
+	width:40%;}
+.logo img {width:100%;
+	margin:0 auto;
+}
+.redes-sociales {position:absolute;
+	right:30px;
+	top:16px;
+}
+.redes-sociales .twitter, .redes-sociales .facebook {background:url(../images/redes-sociales.png);
+	background-size:72px 72px;
+	display:block;
+	width:36px;
+	height:36px;
+	float:left;
+	margin:4px;
+
+}
+.redes-sociales .facebook {background-position:36px -36px;}
+.redes-sociales .facebook:hover, .redes-sociales .facebook:focus {background-position:36px 0px;}
+.redes-sociales .twitter {background-position:0px -36px;}
+.redes-sociales .twitter:hover, .redes-sociales .twitter:focus {background-position:0 0;}
+
+.footer {font-family: 'Ubuntu', Arial, sans-serif;
+	font-size:36px;
+	padding:30px 0px;
+	background:url(../images/bg_footer.png) repeat;
+	position:fixed;
+	bottom:5%;
+	width:100%;
+	text-align:right;
+	letter-spacing:-1px;
+	
+	}
+h3 {margin:0 30px;
+}
+.footer .slogan {font-weight:700;
+	font-size:40px;}
+
+.proximamente, .redes-socialesIE {display: none;}
